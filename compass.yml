@@ -1,0 +1,36 @@
+name: blank_compass_project
+id: ''
+description: >-
+  Ce projet est un test de la création d'un composant compass avec un fichier compass.yml.
+configVersion: 1
+typeId: WEBSITE
+ownerId: 'ari:cloud:identity::team/83726123-5dc1-4d9c-84cb-bc75adc69bac'
+fields:
+  tier: 4
+links:
+  - name: ''
+    type: REPOSITORY
+    url: 'https://github.com/KseniaAxione/blank_compass_project'
+  - name: Sentry
+    type: DASHBOARD
+    url: 'https://axione-4r.sentry.io/projects/javascript/?project=4507544044175440'
+  - name: README
+    type: DOCUMENT
+    url: 'https://github.com/KseniaAxione/blank_compass_project/blob/main/README.md'
+relationships: {}
+labels:
+  - 'language:python'
+  - 'source:github'
+customFields:
+  - name: CI/CD
+    type: text
+    value: null
+  - name: DAT
+    type: text
+    value: null
+  - name: Fonctionnel
+    type: text
+    value: null
+
+# En savoir plus sur le formatage compass.yml :
+# https://go.atlassian.com/compass-yml-format
